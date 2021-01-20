@@ -1,3 +1,4 @@
-# churrascometro
- https://rafael-araujo-reis.github.io/churrascometro/
+#Churrascometro
+
+##Projeto de estudo, realizado durante o Curso Full Stack do ProgramadorBR
 

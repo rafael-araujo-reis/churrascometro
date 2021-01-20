@@ -4,7 +4,7 @@
 <br>
 <p>
     Veja como ficou o
-    <a target="_blank" href="https://rafael-araujo-reis.github.io/churrascometro/">projeto final</a>
+    <a href="https://rafael-araujo-reis.github.io/churrascometro/" target="_blank">projeto final</a>
 
 </p>
 

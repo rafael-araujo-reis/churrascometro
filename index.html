@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Churrascômetro</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div>
+            <h1 class="title">Calcule seu churrasco e <br>evite desperdício</h1>
+            <h2 class="subtitle">E claro, não deixe a galera com fome</h2>
+        </div>
+ 
+    </div>
+
+
+    <div class="calculadora">
+        <h2 class="title-calculadora">Churrascometro</h2>
+
+        
+        <div>
+            <p class="txt">Adultos</p>
+            <img class="remove" id="rmv-adulto" src="./assets/btn-remove.svg" onclick="remover('adulto')">
+            <input class="input" type="number" name="adulto" id="adulto" value="0">
+            <img class="add" src="./assets/btn-add.svg" onclick="adicionar('adulto')">
+        </div>
+
+        
+        <div>
+            <p class="txt">Crianças</p>
+            <img class="remove" id="rmv-crianca" src="./assets/btn-remove.svg" onclick="remover('crianca')">
+            <input class="input" type="number" name="crianca" id="crianca" value="0">
+            <img class="add" src="./assets/btn-add.svg" onclick="adicionar('crianca')">
+        </div>
+
+
+        
+        <div>
+            <p class="txt">Duração (horas)</p>
+            <img class="remove" id="rmv-duracao" src="./assets/btn-remove.svg" onclick="remover('duracao')">
+            <input class="input" type="number" name="duracao" id="duracao" value="0">
+            <img class="add" src="./assets/btn-add.svg" onclick="adicionar('duracao')">
+        </div>
+
+
+        <input class="btn" type="button" value="Calcular" onclick="calcular()">
+    </div>
+
+
+    <div id="cards" class="cards">
+
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

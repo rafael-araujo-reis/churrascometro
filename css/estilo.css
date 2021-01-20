@@ -244,11 +244,6 @@ hr{
         display: inline-block;
     }
 
-    hr{
-        margin-left: -20px;
-        margin-right: -20px;
-    }
-
     .txt-card{
         position: absolute;
         top: 25%;
